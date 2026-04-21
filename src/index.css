@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: white;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at top left, rgba(255, 153, 51, 0.18), transparent 25%),
+    radial-gradient(circle at top right, rgba(19, 136, 8, 0.18), transparent 28%),
+    radial-gradient(circle at bottom center, rgba(0, 87, 183, 0.16), transparent 30%),
+    linear-gradient(135deg, #08111f 0%, #0b1d2f 25%, #102235 50%, #0c1f18 75%, #08111f 100%);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.page-rainbow-bg {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(255, 153, 51, 0.18), transparent 22%),
+    radial-gradient(circle at 85% 15%, rgba(0, 87, 183, 0.16), transparent 24%),
+    radial-gradient(circle at 50% 85%, rgba(19, 136, 8, 0.18), transparent 26%),
+    linear-gradient(135deg, #08111f 0%, #0d1b2a 22%, #11263b 45%, #10281f 72%, #0a1625 100%);
+}
+
+.section-rainbow-panel {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 153, 51, 0.08) 0%,
+      rgba(255, 255, 255, 0.02) 25%,
+      rgba(19, 136, 8, 0.08) 55%,
+      rgba(0, 87, 183, 0.08) 100%
+    );
+}
+
+.spl-dashboard-bg {
+  background:
+    radial-gradient(circle at top left, rgba(245, 197, 24, 0.08), transparent 18%),
+    radial-gradient(circle at top right, rgba(59, 130, 246, 0.08), transparent 20%),
+    linear-gradient(180deg, #070b12 0%, #0d1320 45%, #0a0f18 100%);
+}
+
+.spl-dashboard-panel {
+  background: rgba(19, 24, 37, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+}
+
+.spl-dashboard-panel-soft {
+  background: rgba(24, 31, 46, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.spl-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.spl-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+
+.spl-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}

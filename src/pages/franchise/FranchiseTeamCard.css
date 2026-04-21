@@ -1,0 +1,188 @@
+/* LAYOUT */
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+}
+
+/* SIDE TITLE */
+.side-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #6a3e23;
+}
+
+/* TEAM CARD */
+.team-card {
+  background: white;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.team-card:hover {
+  background: #f9fafb;
+}
+
+.small {
+  font-size: 12px;
+  color: gray;
+}
+
+/* STATUS */
+.status {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.status.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status.approved {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+/* MODAL */
+.modal-bg {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 350px;
+}
+
+.player-row {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  
+}
+
+.mt {
+  margin-top: 12px;
+   border: 2px dashed #d1d5db;
+   padding: 20px;
+}
+/* PAGE WIDTH */
+.page-container.wide {
+  max-width: 1400px;   /* wider page */
+  margin: auto;
+}
+
+/* CENTER FORM */
+.center-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 600px; /* slightly bigger form */
+}
+
+/* SEARCH */
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1400px;
+  margin: 0 auto 25px auto;
+  padding: 0 10px;
+}
+
+.search-input {
+ 
+  width: 350px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  color: black;
+}
+
+/* TEAMS GRID */
+.teams-container {
+  padding: 10px 20px;
+}
+
+.teams-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content:center;
+  flex-wrap: wrap; /* IMPORTANT */
+}
+
+/* SMALL CARD DESIGN */
+.team-card.small {
+  width: 320px;
+  height: 220px;            
+  padding: 15px;
+  border-radius: 12px;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.team-card.small:hover {
+  transform: translateY(-5px);
+}
+
+/* LOGO */
+.team-logo { 
+  
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.small-text {
+  font-size: 13px;
+  color: #666;
+}
+
+/* STATUS */
+.status {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+.status.approved {
+  background: #d4edda;
+  color: green;
+}
+
+.status.pending {
+  background: #ffeeba;
+  color: #856404;
+}
