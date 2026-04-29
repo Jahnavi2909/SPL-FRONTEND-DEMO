@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="40" fill="#ffffff"/>
+  <g fill="#121212">
+    <path d="M128 56 146 88 196 100 160 118 176 154 128 132 80 154 96 118 60 100 110 88Z"/>
+    <circle cx="128" cy="94" r="14"/>
+    <path d="M120 106h16l-8 38z"/>
+  </g>
+  <text x="82" y="196" fill="#555555" font-family="Georgia, serif" font-size="28" letter-spacing="2">GOT</text>
+</svg>

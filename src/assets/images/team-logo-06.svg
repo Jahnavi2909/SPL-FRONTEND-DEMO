@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3043a6"/>
+      <stop offset="100%" stop-color="#63c6df"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="#ffffff"/>
+  <circle cx="128" cy="128" r="98" fill="url(#g2)"/>
+  <circle cx="128" cy="128" r="82" fill="none" stroke="#ffffff" stroke-opacity="0.24" stroke-width="2"/>
+  <text x="60" y="149" fill="#ffffff" font-family="Arial, sans-serif" font-size="82" font-weight="400">iDB</text>
+</svg>

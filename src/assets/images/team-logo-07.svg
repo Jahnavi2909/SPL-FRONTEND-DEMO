@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="40" fill="#ffffff"/>
+  <g fill="#111111">
+    <path d="M128 52 150 88 204 104 164 124 182 164 128 140 74 164 92 124 52 104 106 88Z"/>
+    <circle cx="128" cy="94" r="13"/>
+    <path d="M118 110h20l-10 44z"/>
+  </g>
+  <rect x="72" y="184" width="112" height="10" rx="5" fill="#c7c7c7"/>
+  <text x="68" y="220" fill="#555555" font-family="Georgia, serif" font-size="22" letter-spacing="4">RAVEN</text>
+</svg>

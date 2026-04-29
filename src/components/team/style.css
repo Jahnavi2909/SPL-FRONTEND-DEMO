@@ -1,0 +1,23 @@
+
+.team-point-table-logo {
+    height: 64px;
+}
+
+
+.point-table-logo-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.point-table-logo-container > h4 {
+    font-size: 17px !important;
+}
+
+/* .team-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit:cover;
+
+} */

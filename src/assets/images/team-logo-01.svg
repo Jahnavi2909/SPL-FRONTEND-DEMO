@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="40" fill="#ffffff"/>
+  <g stroke="#ffd45d" stroke-width="4" stroke-linecap="round">
+    <line x1="128" y1="40" x2="128" y2="56"/>
+    <line x1="128" y1="128" x2="128" y2="144"/>
+    <line x1="84" y1="92" x2="100" y2="92"/>
+    <line x1="156" y1="92" x2="172" y2="92"/>
+    <line x1="97" y1="61" x2="108" y2="72"/>
+    <line x1="148" y1="112" x2="159" y2="123"/>
+    <line x1="97" y1="123" x2="108" y2="112"/>
+    <line x1="148" y1="72" x2="159" y2="61"/>
+  </g>
+  <text x="24" y="114" fill="#2150b8" font-family="Arial, sans-serif" font-size="70" font-weight="700">IN</text>
+  <circle cx="128" cy="92" r="28" fill="#f5b400"/>
+  <circle cx="128" cy="92" r="18" fill="#ffda69"/>
+  <text x="150" y="114" fill="#2150b8" font-family="Arial, sans-serif" font-size="70" font-weight="700">X</text>
+  <text x="40" y="170" fill="#2150b8" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="8">LIVE</text>
+  <text x="122" y="171" fill="#3b4a67" font-family="Georgia, serif" font-size="24" font-style="italic">the MOVIE</text>
+</svg>

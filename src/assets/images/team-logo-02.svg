@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2341a8"/>
+      <stop offset="100%" stop-color="#5fc0e3"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="#ffffff"/>
+  <circle cx="128" cy="128" r="100" fill="url(#g1)"/>
+  <text x="62" y="149" fill="#ffffff" font-family="Arial, sans-serif" font-size="86" font-weight="400">iDB</text>
+</svg>
